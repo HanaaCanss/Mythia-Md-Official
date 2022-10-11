@@ -124,11 +124,11 @@ global.author = '                「 HANI BOTZ MD 」'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/d1a3b7c31e0b058732c2e.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/d1a3b7c31e0b058732c2e.jpg'
+global.thumb = 'https://telegra.ph/file/9e189c5f478cc27847da6.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/9e189c5f478cc27847da6.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://telegra.ph/file/d1a3b7c31e0b058732c2e.jpg']
-global.fla = 'https://telegra.ph/file/d1a3b7c31e0b058732c2e.jpg'
+global.thumbs = ['https://telegra.ph/file/9e189c5f478cc27847da6.jpg']
+global.fla = 'https://telegra.ph/file/9e189c5f478cc27847da6.jpg'
 global.flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
