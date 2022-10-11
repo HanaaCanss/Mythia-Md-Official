@@ -1,10 +1,7 @@
-//   •-- MADE BY --•
-//   | Letta - Sama && Papah-Chan ! 💗🐰
-//   •-------------•
-// CREDITS ! JANGAN DIUBAH, JANGAN DIHAPUS !!
-// NOTE : UBAH APIKEY DI CONFIG.JS
+//REMAKE BY HANAA CANSS
+//©HANAACANSS
+//LU UBAH BETUMBUK KITA
 
-//------ FUNCTION & MODULE
 function pickRandom(list) {
      return list[Math.floor(Math.random() * list.length)]
      }
@@ -26,16 +23,20 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode, isPrems }) 
 //---------------------SOURCE
 
 //> Default
-let res = 'https://api.lolhuman.xyz/api/random/nsfw/'
-let api = '?apikey=e54205a4ca2caa368cc067bb'
+let res = 'https://api-mythiaofc.herokuapp.com/api/nsfw/'
+let api = '?apikey=MythiaOFC'
 
 //> Lolhuman
-let resl = 'https://api.lolhuman.xyz/api/random2/'
-let apil = '?apikey=8e66d0934cf741bfd2182c16'
+let resl = 'https://api-mythiaofc.herokuapp.com/api/nsfw/'
+let apil = '?apikey=MythiaOFC'
 
 //> Xteam
-let xres = 'https://api.xteam.xyz/randomimage/'
-let xapi = '?APIKEY=ebb6251cc00f9c63'
+let xres = 'https://api-mythiaofc.herokuapp.com/api/nsfw/'
+let xapi = '?apikey=MythiaOFC'
+
+//> Nsfw Loli
+let xloli = 'https://api-mythiaofc.herokuapp.com/api/walpaper/'
+let xapil = '?apikey=MythiaOFC'
 //--------------------------------
 
 // ••••••••••••••••• OPTIONS •••••••••••
@@ -49,40 +50,22 @@ let ahegao = true
 let anal = true
 let ass = true
 let blowjob = true
-let cums = true
+let cum = true
 let ecchi = true
 let ero = true
-let erofeet = true
-let erogirl = true
-let holoero = true
-let erokitsune = true
-let eroneko = true
-let eroyuri = true
-let feet = true
+let foot = true
 let femdom = true
-let futanari = true
-let girlsolo = true
 let hentai = true
-let holo = true
 let jahy = true
-let kitsune = true
-let kuni = true
 let loli = true
 let manga = true
-let milf = true
 let mstrb = true
 let neko = true
 let panties = true
 let pussy = true
-let oppai = true
-let spank = true
 let tentacles = true
 let thighs = true
-let tits = true
 let trap = true
-let uniform = true
-let waifu = true
-let yaoi = true
 let yuri = true
 
 //-------------------------------------
@@ -106,43 +89,25 @@ const sections = [
 	title: '◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥',
 	rows: [
 	{title: `${(ch == true ? false : ahegao) == true ? p : f}` + "A • Ahegao", rowId: ".nsfw ahegao"},
-	{title: `${(ch == true ? false : anal) == true ? p:f}` + "A • Anal", rowId: ".nsfw anal"},
 	{title: `${(ch == true ? false : ass) == true ? p:f}` + "A • Ass", rowId: ".nsfw ass"},
 	{title: `${(ch == true ? false : blowjob) == true ? p:f}` + "B • BlowJob", rowId: ".nsfw blowjob"},
-	{title: `${(ch == true ? false : cums) == true ? p:f}` + "C • Cumsluts", rowId: ".nsfw cums"},
-	{title: `${(ch == true ? false : ecchi) == true ? p:f}` + "E • Ecchi", rowId: ".nsfw ecchi"},
+	{title: `${(ch == true ? false : cum) == true ? p:f}` + "C • Cum" , rowid: ".nsfw cum"},
 	{title: `${(ch == true ? false : ero) == true ? p:f}` + "E • Ero", rowId: ".nsfw ero"},
-  //{title: `${(ch == true ? false : erofeet) == true ? p:f}` + "E • Ero Feet", rowId: ".nsfw erofeet"},
-	{title: `${(ch == true ? false : erogirl) == true ? p:f}` + "E • Ero Girl", rowId: ".nsfw erogirl"},
-	{title: `${(ch == true ? false : holoero) == true ? p:f}` + "E • Ero Holo", rowId: ".nsfw holoero"},
-  //{title: `${(ch == true ? false : erokitsune) == true ? p:f}` + "E • Ero Kitsune", rowId: ".nsfw erokitsune"},
-  //{title: `${(ch == true ? false : eroneko) == true ? p:f}` + "E • Ero Neko", rowId: ".nsfw eroneko"},
-  //{title: `${(ch == true ? false : eroyuri) == true ? p:f}` + "E • Ero Yuri", rowId: ".nsfw eroyuri"},
-	{title: `${(ch == true ? false : feet) == true ? p:f}` + "F • Feet", rowId: ".nsfw feet"},
+	{title: `${(ch == true ? false : feet) == true ? p:f}` + "F • Foot", rowId: ".nsfw foot"},
 	{title: `${(ch == true ? false : femdom) == true ? p:f}` + "F • Femdom", rowId: ".nsfw femdom"},
-	{title: `${(ch == true ? false : futanari) == true ? p:f}` + "F • Futanari", rowId: ".nsfw futanari"},
-  //{title: `${(ch == true ? false : girlsolo) == true ? p:f}` + "G • Girl Solo", rowId: ".nsfw girlsolo"},
 	{title: `${(ch == true ? false : hentai) == true ? p:f}` + "H • Hentai", rowId: ".nsfw hentai"},
-	{title: `${(ch == true ? false : holo) == true ? p:f}` + "H • Holo", rowId: ".nsfw holo"},
 	{title: `${(ch == true ? false : jahy) == true ? p:f}` + "J • Jahy", rowId: ".nsfw jahy"},
-  //{title: `${(ch == true ? false : kitsune) == true ? p:f}` + "K • Kitsune", rowId: ".nsfw kitsune"},
-  //{title: `${(ch == true ? false : kuni) == true ? p:f}` + "K • Kuni", rowId: ".nsfw kuni"},
 	{title: `${(ch == true ? false : loli) == true ? p:f}` + "L • Loli", rowId: ".nsfw loli"},
 	{title: `${(ch == true ? false : manga) == true ? p:f}` + "M • Manga", rowId: ".nsfw manga"},
 	{title: `${(ch == true ? false : milf) == true ? p:f}` + "M • Milf", rowId: ".nsfw milf"},
-	{title: `${(ch == true ? false : mstrb) == true ? p:f}` + "M • Mstrb", rowId: ".nsfw mstrb"},
+	{title: `${(ch == true ? false : mstrb) == true ? p:f}` + "M • Masturbation", rowId: ".nsfw mstrb"},
 	{title: `${(ch == true ? false : neko) == true ? p:f}` + "N • Neko", rowId: ".nsfw neko"},
 	{title: `${(ch == true ? false : oppai) == true ? p:f}` + "O • Oppai", rowId: ".nsfw oppai"},
 	{title: `${(ch == true ? false : panties) == true ? p:f}` + "P • Panties", rowId: ".nsfw panties"},
 	{title: `${(ch == true ? false : pussy) == true ? p:f}` + "P • Pussy", rowId: ".nsfw pussy"},
-  //{title: `${(ch == true ? false : spank) == true ? p:f}` + "S • Spank", rowId: ".nsfw spank"},
 	{title: `${(ch == true ? false : tentacles) == true ? p:f}` + "T • Tentacles", rowId: ".nsfw tentacles"},
 	{title: `${(ch == true ? false : thighs) == true ? p:f}` + "T • Thighs", rowId: ".nsfw thighs"},
-  //{title: `${(ch == true ? false : tits) == true ? p:f}` + "T • Tits", rowId: ".nsfw tits"},
 	{title: `${(ch == true ? false : trap) == true ? p:f}` + "T • Trap", rowId: ".nsfw trap"},
-	{title: `${(ch == true ? false : uniform) == true ? p:f}` + "U • Uniform", rowId: ".nsfw uniform"},
-	{title: `${(ch == true ? false : waifu) == true ? p:f}` + "W • Waifu", rowId: ".nsfw waifu"},
-	{title: `${(ch == true ? false : yaoi) == true ? p:f}` + "Y • Yaoi", rowId: ".nsfw yaoi"},
 	{title: `${(ch == true ? false : yuri) == true ? p:f}` + "Y • Yuri", rowId: ".nsfw yuri"},
 	]
     },
@@ -169,13 +134,6 @@ case 'ahegao':
 		}
           conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'ahegao' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
           break
-          
-case 'anal':
-         if ((ch == true ? false : anal) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-         }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(resl + 'anal' + apil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-           break
             
 case 'ass':
          if ((ch == true ? false : ass) == true) { 
@@ -192,8 +150,8 @@ case 'blowjob':
           conn.sendButton(m.chat, tekk, fot, bj.url, [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
-case 'cums':
-         if ((ch == true ? false : cums) == true) { 
+case 'cum':
+         if ((ch == true ? false : cum) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
 		 }
           conn.sendButton(m.chat, tekk, fot, await(await fetch(resl + 'cum' + apil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
@@ -213,53 +171,11 @@ case 'ero':
           conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'ero' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
-case 'erofeet':
-         if ((ch == true ? false : eroFeet) == true) { 
+case 'foot':
+         if ((ch == true ? false : foot) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
 		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'feet' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'erogirl':
-         if ((ch == true ? false : erogirl) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'lewdanimegirls' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'holoero':
-         if ((ch == true ? false : holoero) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'holo' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'erokitsune':
-         if ((ch == true ? false : erokitsune) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(resl + 'erok' + apil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'eroneko':
-         if ((ch == true ? false : eroneko) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(resl + 'eron' + apil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'eroyuri':
-         if ((ch == true ? false : eroyuri) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'eroYuri' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'feet':
-         if ((ch == true ? false : feet) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'feet' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
+          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'foot' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
 case 'femdom':
@@ -269,32 +185,11 @@ case 'femdom':
           conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'femdom' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
-case 'futanari':
-         if ((ch == true ? false : futanari ) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'futanari' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'girlsolo':
-         if ((ch == true ? false : girlsolo) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(resl + 'solo' + apil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
 case 'hentai':
          if ((ch == true ? false : hentai) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
 		 }
           conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'hentai' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'holo':
-         if ((ch == true ? false : holo) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'hololewd' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
 case 'jahy':
@@ -304,25 +199,11 @@ case 'jahy':
           conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'jahy' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
-case 'kitsune':
-         if ((ch == true ? false : kitsune) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'kitsune' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'kuni':
-         if ((ch == true ? false : kuni) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(resl + 'kuni' + apil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
 case 'loli':
          if ((ch == true ? false : loli) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
 		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'loli' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
+          conn.sendButton(m.chat, tekk, fot, await(await fetch(xloli + 'loli' + xapil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
 case 'manga':
@@ -332,32 +213,18 @@ case 'manga':
           conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'manga' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
-case 'milf':
-         if ((ch == true ? false : milf) == true) { 
-         if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'milf' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
 case 'mstrb':
          if ((ch == true ? false : mstrb) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
 		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'mstrb' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
+          conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'masturbation' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
 case 'neko':
          if ((ch == true ? false : neko) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
 		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'nsfwneko' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'oppai':
-         if ((ch == true ? false : oppai) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'sideoppai' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
+          conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'neko' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
 case 'panties':
@@ -374,25 +241,11 @@ case 'pussy':
           conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'pussy' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
-case 'spank':
-         if ((ch == true ? false : spank) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'spank' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
 case 'tentacles':
          if ((ch == true ? false : tentacles) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
 		 }
           conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'tentacles' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'tits':
-         if ((ch == true ? false : tits) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'tits' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
 case 'thighs':
@@ -408,28 +261,6 @@ case 'trap':
 		 }
           let tr = await(await fetch(`https://api.waifu.pics/nsfw/trap`)).json()
           conn.sendButton(m.chat, tekk, fot, tr.url, [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'uniform':
-         if ((ch == true ? false : uniform) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'uniform' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'waifu':
-         if ((ch == true ? false : waifu) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          let wf = await(await fetch(`https://api.waifu.pics/nsfw/waifu`)).json()
-          conn.sendButton(m.chat, tekk, fot, wf.url, [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'yaoi':
-         if ((ch == true ? false : yaoi) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'yaoi' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
 case 'yuri':
