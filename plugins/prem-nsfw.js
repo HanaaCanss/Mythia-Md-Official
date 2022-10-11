@@ -35,7 +35,7 @@ let xres = 'https://api-mythiaofc.herokuapp.com/api/nsfw/'
 let xapi = '?apikey=MythiaOFC'
 
 //> Nsfw Loli
-let xloli = 'https://api-mythiaofc.herokuapp.com/api/walpaper/'
+let xloli = 'https://api-mythiaofc.herokuapp.com/api/wallpaper/'
 let xapil = '?apikey=MythiaOFC'
 //--------------------------------
 
@@ -51,7 +51,6 @@ let anal = true
 let ass = true
 let blowjob = true
 let cum = true
-let ecchi = true
 let ero = true
 let foot = true
 let femdom = true
@@ -65,9 +64,8 @@ let panties = true
 let pussy = true
 let tentacles = true
 let thighs = true
-let trap = true
-let yuri = true
-
+/**let yuri = true
+*/
 //-------------------------------------
 
 //---------- TEXT -----------
@@ -88,27 +86,24 @@ const sections = [
    {
 	title: '◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥◤◢◣◥',
 	rows: [
-	{title: `${(ch == true ? false : ahegao) == true ? p : f}` + "A • Ahegao", rowId: ".nsfw ahegao"},
+	{title: `${(ch == true ? false : ahegao) == true ? p:f}` + "A • Ahegao", rowId: ".nsfw ahegao"},
 	{title: `${(ch == true ? false : ass) == true ? p:f}` + "A • Ass", rowId: ".nsfw ass"},
 	{title: `${(ch == true ? false : blowjob) == true ? p:f}` + "B • BlowJob", rowId: ".nsfw blowjob"},
-	{title: `${(ch == true ? false : cum) == true ? p:f}` + "C • Cum" , rowid: ".nsfw cum"},
+	{title: `${(ch == true ? false : cum) == true ? p:f}` + "C • Cum", rowid: ".nsfw cum"},
 	{title: `${(ch == true ? false : ero) == true ? p:f}` + "E • Ero", rowId: ".nsfw ero"},
-	{title: `${(ch == true ? false : feet) == true ? p:f}` + "F • Foot", rowId: ".nsfw foot"},
+	{title: `${(ch == true ? false : foot) == true ? p:f}` + "F • Foot", rowId: ".nsfw foot"},
 	{title: `${(ch == true ? false : femdom) == true ? p:f}` + "F • Femdom", rowId: ".nsfw femdom"},
 	{title: `${(ch == true ? false : hentai) == true ? p:f}` + "H • Hentai", rowId: ".nsfw hentai"},
 	{title: `${(ch == true ? false : jahy) == true ? p:f}` + "J • Jahy", rowId: ".nsfw jahy"},
 	{title: `${(ch == true ? false : loli) == true ? p:f}` + "L • Loli", rowId: ".nsfw loli"},
 	{title: `${(ch == true ? false : manga) == true ? p:f}` + "M • Manga", rowId: ".nsfw manga"},
-	{title: `${(ch == true ? false : milf) == true ? p:f}` + "M • Milf", rowId: ".nsfw milf"},
 	{title: `${(ch == true ? false : mstrb) == true ? p:f}` + "M • Masturbation", rowId: ".nsfw mstrb"},
 	{title: `${(ch == true ? false : neko) == true ? p:f}` + "N • Neko", rowId: ".nsfw neko"},
-	{title: `${(ch == true ? false : oppai) == true ? p:f}` + "O • Oppai", rowId: ".nsfw oppai"},
 	{title: `${(ch == true ? false : panties) == true ? p:f}` + "P • Panties", rowId: ".nsfw panties"},
 	{title: `${(ch == true ? false : pussy) == true ? p:f}` + "P • Pussy", rowId: ".nsfw pussy"},
 	{title: `${(ch == true ? false : tentacles) == true ? p:f}` + "T • Tentacles", rowId: ".nsfw tentacles"},
 	{title: `${(ch == true ? false : thighs) == true ? p:f}` + "T • Thighs", rowId: ".nsfw thighs"},
-	{title: `${(ch == true ? false : trap) == true ? p:f}` + "T • Trap", rowId: ".nsfw trap"},
-	{title: `${(ch == true ? false : yuri) == true ? p:f}` + "Y • Yuri", rowId: ".nsfw yuri"},
+	/**{title: `${(ch == true ? false : yuri) == true ? p:f}` + "Y • Yuri", rowId: ".nsfw yuri"},*/
 	]
     },
 ]
@@ -157,13 +152,6 @@ case 'cum':
           conn.sendButton(m.chat, tekk, fot, await(await fetch(resl + 'cum' + apil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
-case 'ecchi':
-         if ((ch == true ? false : ecchi) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'ecchi' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
 case 'ero':
          if ((ch == true ? false : ero) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
@@ -203,7 +191,7 @@ case 'loli':
          if ((ch == true ? false : loli) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
 		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(xloli + 'loli' + xapil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
+          conn.sendButton(m.chat, tekk, fot, await(await fetch(xloli + 'nsfwloli' + xapil)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
 case 'manga':
@@ -217,7 +205,7 @@ case 'mstrb':
          if ((ch == true ? false : mstrb) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
 		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'masturbation' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
+          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'masturbation' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
 case 'neko':
@@ -255,21 +243,14 @@ case 'thighs':
           conn.sendButton(m.chat, tekk, fot, await(await fetch(xres + 'thighs' + xapi)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
-case 'trap':
-         if ((ch == true ? false : trap) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          let tr = await(await fetch(`https://api.waifu.pics/nsfw/trap`)).json()
-          conn.sendButton(m.chat, tekk, fot, tr.url, [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
-case 'yuri':
-         if ((ch == true ? false : yuri) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'yuri' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
+            //Perbaikan
+/** case 'yuri':
+       *  if ((ch == true ? false : yuri) == true) { 
+	   *  if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
+		* }
+       *   conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'yuri' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
+      *      break 
+            */
 default:
          return await conn.sendMessage(m.chat, listMessage, { quoted: m, contextInfo: { mentionedJid: [m.sender] }})
         }
