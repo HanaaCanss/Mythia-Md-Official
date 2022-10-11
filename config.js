@@ -47,24 +47,24 @@ global.ppulsa = '083187631714' //axis
 global.psaweria = 'notfound' //saweria
 
 /*============== BIODATA ==============*/
-global.nomorbot = '6281267751714'
-global.nomorown = '6281267751714'
-global.namebot = 'HanaaBotzz'
-global.nameown = 'HanaaCanss'
-global.gender = "Cewe"
-global.tanggallahir = "05-10-2007"
-global.umur = "16"
-global.hobby = "Coding"
+global.nomorbot = '082169674486'
+global.nomorown = '085834215745'
+global.namebot = 'HaniBotz'
+global.nameown = 'ErgaID'
+global.gender = "-"
+global.tanggallahir = "-"
+global.umur = "18"
+global.hobby = "-"
 
 /*============== APIKEY SIMPEL ==============*/
 global.zenzkey = 'b8040941f7'
 global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e6b
-
+global.mitikey = 'MythiaOFC'
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281267758318', 'HanaaCanss', true],
-  ['6283898351836', 'OmHiro', true],
+  ['082169674486', 'HanaaCanss', true],
+  ['085834215745', 'ErgaID', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
@@ -114,21 +114,21 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '⫹⫺HanaaCanss Multi Device' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘HANAA-BOTZ-V3 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ HANAA-BOTZ-V3 '
+global.wm = '⫹⫺HaniBotz-MutiDevice' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘HANIBOTZ ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ HaniBotz-Md '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ HanaaCanss MultiDevice Bot`
-global.author = '                「 HANAACANSS  あ」'
+global.titlebot = `⫹⫺ HaniBotz-MultiDevice`
+global.author = '                「 HANI BOTZ MD 」'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/26889d0d96825759a23e3.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/26889d0d96825759a23e3.jpg'
+global.thumb = 'https://telegra.ph/file/d1a3b7c31e0b058732c2e.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/d1a3b7c31e0b058732c2e.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://telegra.ph/file/26889d0d96825759a23e3.jpg']
-global.fla = 'https://telegra.ph/file/26889d0d96825759a23e3.jpg'
+global.thumbs = ['https://telegra.ph/file/d1a3b7c31e0b058732c2e.jpg']
+global.fla = 'https://telegra.ph/file/d1a3b7c31e0b058732c2e.jpg'
 global.flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
@@ -194,8 +194,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = '2022'
-global.stickauth = `©𝗛𝗮𝗻𝗮𝗮𝗖𝗮𝗻𝘀𝘀`
+global.stickpack = 'Omaga'
+global.stickauth = `©HaniBotz`
 
 global.multiplier = 38 // The higher, The harder levelup
 
